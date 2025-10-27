@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storyboard.md",
+                "file": "old storyboard.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Storyboard"
+              "title": "old storyboard"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storyboard.md",
-                "mode": "preview",
+                "file": "Bosses.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Storyboard"
+              "title": "Bosses"
             }
           }
         ],
@@ -109,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Bosses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Bosses"
             }
           },
           {
@@ -127,11 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Bosses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Bosses"
             }
           },
           {
@@ -155,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Task List.md",
+                "file": "Bosses.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Task List"
+              "title": "Outline of Bosses"
             }
           }
         ]
@@ -182,8 +184,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "0ffda6afd729a32c",
+  "active": "1f736a247fbaf912",
   "lastOpenFiles": [
+    "Block Palettes.md",
+    "Bosses.md",
+    "Storyboard.md",
+    "old storyboard.md",
+    "NPC_Data.md",
+    "NPC Data.md",
+    "Task List.md",
     "config/ftbquests/quests/chapters/ready.snbt",
     "config/ftbquests/quests/chapters/quests.snbt",
     "config/ftbquests/quests/chapters/kill_log.snbt",
@@ -204,10 +213,6 @@
     "config/easy_npc/skin/pig/pig_template.png",
     "config/easy_npc/skin/zombie",
     "config/easy_npc/skin/zombie_villager",
-    "config/easy_npc/skin/wolf",
-    "Storyboard.md",
-    "Task List.md",
-    "Block Palettes.md",
     "Welcome.md"
   ]
 }
