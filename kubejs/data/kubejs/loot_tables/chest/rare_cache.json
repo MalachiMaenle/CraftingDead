@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        { "type": "minecraft:item", "name": "kubejs:strange_meat_jerky", "weight": 4, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }]  },
+        { "type": "minecraft:item", "name": "kubejs:eye_candy", "weight": 4, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 3 } }]  },
+        { "type": "minecraft:item", "name": "kubejs:strange_meat", "weight": 4, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 3 } }]  },
+        { "type": "minecraft:item", "name": "kubejs:fried_roaches", "weight": 4, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 3 } }]  },
+        { "type": "minecraft:item", "name": "kubejs:canned_beans", "weight": 2, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }]  },
+        { "type": "minecraft:item", "name": "kubejs:canned_fish", "weight": 2, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }]  },
+        { "type": "minecraft:item", "name": "kubejs:canned_noodles", "weight": 2, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }]  }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:chainmail_helmet", "weight": 2},
+        { "type": "minecraft:item", "name": "minecraft:chainmail_chestplate", "weight": 2},
+        { "type": "minecraft:item", "name": "minecraft:chainmail_leggings", "weight": 2},
+        { "type": "minecraft:item", "name": "minecraft:chainmail_boots", "weight": 2},
+        { "type": "minecraft:item", "name": "minecraft:leather_helmet", "weight": 3},
+        { "type": "minecraft:item", "name": "minecraft:leather_chestplate", "weight": 3},
+        { "type": "minecraft:item", "name": "minecraft:leather_leggings", "weight": 3},
+        { "type": "minecraft:item", "name": "minecraft:leather_boots", "weight": 3}
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        { "type": "minecraft:item", "name": "kubejs:baseball_bat", "weight": 4 },
+        { "type": "minecraft:item", "name": "kubejs:bowie_knife", "weight": 4 },
+        { "type": "minecraft:item", "name": "kubejs:hatchet", "weight": 4 },
+        { "type": "minecraft:item", "name": "kubejs:crowbar", "weight": 4 },
+        { "type": "minecraft:item", "name": "kubejs:katana", "weight": 3 },
+        { "type": "minecraft:item", "name": "kubejs:broken_chainsaw", "weight": 3 }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "kubejs:bandage", "weight": 9, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 3 } }] },
+        { "type": "minecraft:item", "name": "kubejs:morphine", "weight": 7},
+        { "type": "minecraft:item", "name": "kubejs:health_pack", "weight": 5 }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:gold_nugget", "weight": 2}
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        { "type": "minecraft:item", "name": "spartanweaponry:iron_pike", "weight": 2 },
+        { "type": "minecraft:item", "name": "spartanweaponry:silver_pike", "weight": 2 },
+        { "type": "minecraft:item", "name": "spartanweaponry:bronze_pike", "weight": 2 },
+        { "type": "minecraft:item", "name": "spartanweaponry:invar_pike", "weight": 2 },
+        { "type": "minecraft:item", "name": "tacz:ammo_box", "weight": 2, "functions": [{ "function": "set_nbt", "tag": "{Level:1}" }]  },
+        { "type": "minecraft:item", "name": "tacz:ammo_box", "weight": 2, "functions": [{ "function": "set_nbt", "tag": "{Level:2}" }]  }
+      ]
+    }
+  ]
+}

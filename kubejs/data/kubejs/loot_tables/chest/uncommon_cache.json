@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        { "type": "minecraft:item", "name": "kubejs:strange_meat", "weight": 4, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 3 } }]  },
+        { "type": "minecraft:item", "name": "kubejs:chewy_brain", "weight": 4, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }]  },
+        { "type": "minecraft:item", "name": "kubejs:canned_beans", "weight": 1, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 3 } }]  },
+        { "type": "minecraft:item", "name": "kubejs:canned_fish", "weight": 1, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }]  },
+        { "type": "minecraft:item", "name": "kubejs:canned_noodles", "weight": 1, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }]  },
+        { "type": "minecraft:item", "name": "farmersdelight:rope", "weight": 4, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 10 } }]  }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        { "type": "minecraft:item", "name": "kubejs:baseball_bat", "weight": 2 },
+        { "type": "minecraft:item", "name": "kubejs:bowie_knife", "weight": 2 },
+        { "type": "minecraft:item", "name": "kubejs:hatchet", "weight": 2 },
+        { "type": "minecraft:item", "name": "kubejs:crowbar", "weight": 2 },
+        { "type": "minecraft:item", "name": "kubejs:katana", "weight": 2 },
+        { "type": "minecraft:item", "name": "kubejs:broken_chainsaw", "weight": 1 }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:gold_nugget", "weight": 4, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }]  },
+        { "type": "minecraft:item", "name": "kubejs:bandage", "weight": 10, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }] },
+        { "type": "minecraft:item", "name": "kubejs:morphine", "weight": 4 },
+        { "type": "minecraft:item", "name": "kubejs:health_pack", "weight": 1 }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:chainmail_helmet", "weight": 1},
+        { "type": "minecraft:item", "name": "minecraft:chainmail_chestplate", "weight": 1},
+        { "type": "minecraft:item", "name": "minecraft:chainmail_leggings", "weight": 1},
+        { "type": "minecraft:item", "name": "minecraft:chainmail_boots", "weight": 1},
+        { "type": "minecraft:item", "name": "minecraft:leather_helmet", "weight": 3},
+        { "type": "minecraft:item", "name": "minecraft:leather_chestplate", "weight": 3},
+        { "type": "minecraft:item", "name": "minecraft:leather_leggings", "weight": 3},
+        { "type": "minecraft:item", "name": "minecraft:leather_boots", "weight": 3}
+      ]
+    }
+  ]
+}
