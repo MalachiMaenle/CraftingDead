@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0c45e94de940fcfe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "old storyboard.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "old storyboard"
-            }
-          },
-          {
             "id": "1f736a247fbaf912",
             "type": "leaf",
             "state": {
@@ -31,8 +17,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,6 +164,13 @@
   },
   "active": "0ffda6afd729a32c",
   "lastOpenFiles": [
+    "obsidian/Storyboard.md",
+    "obsidian/old storyboard.md",
+    "obsidian/NPC_Data.md",
+    "obsidian/Bosses.md",
+    "obsidian/Block Palettes.md",
+    "obsidian",
+    "New folder",
     "kubejs/assets/kubejs/textures/item/strange_meat_jerky.png",
     "kubejs/assets/kubejs/textures/item/strange_meat.png",
     "kubejs/assets/kubejs/textures/item/soggy_cracker.png",
@@ -189,7 +181,6 @@
     "kubejs/assets/kubejs/textures/item/katana.png",
     "kubejs/assets/kubejs/textures/item/human_finger_cheese.png",
     "kubejs/assets/kubejs/textures/item/health_pack.png",
-    "kubejs/assets/kubejs/textures/item/hatchet.png",
     "old storyboard.md",
     "Bosses.md",
     "Block Palettes.md",
@@ -205,8 +196,6 @@
     "config/ftbquests/quests/data.snbt",
     "config/ftbquests/quests",
     "config/ftbquests",
-    "config/easy_npc/skin/zombie",
-    "config/easy_npc/skin/zombie_villager",
     "Welcome.md"
   ]
 }
