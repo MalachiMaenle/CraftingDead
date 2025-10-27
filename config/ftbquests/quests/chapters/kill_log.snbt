@@ -1,0 +1,520 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kill_log"
+	group: ""
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:zombie_head"
+	id: "3D2E02D591EA62F3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28A980C125614FC1"]
+			id: "48F1FB730327F92C"
+			rewards: [{
+				id: "29E2E4F8E94972AC"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_spawn_egg"
+				id: "7F39A4BF1F645E24"
+				title: "Kill 100 Zombies"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill: 100x Zombies"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64875764C6090F45"]
+			id: "28A980C125614FC1"
+			rewards: [{
+				id: "0D9202EF5DC8BC8F"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_spawn_egg"
+				id: "62F02CB4984CD83E"
+				title: "Kill 50 Zombies"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill: 50x Zombies"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["798E373FF2672C42"]
+			id: "64875764C6090F45"
+			invisible: true
+			rewards: [{
+				id: "20DF0489BC45F4EF"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_spawn_egg"
+				id: "2F5DEF7EED78D6DD"
+				title: "Kill 10 Zombies"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Kill: 10x Zombies"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48F1FB730327F92C"]
+			id: "769BA25ECE121AB3"
+			rewards: [{
+				id: "75B711F34CEA7806"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_spawn_egg"
+				id: "45601208B95E66DE"
+				title: "Kill 500 Zombies"
+				type: "kill"
+				value: 500L
+			}]
+			title: "Kill: 500x Zombies"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["769BA25ECE121AB3"]
+			id: "3870837E52B0A01E"
+			rewards: [{
+				id: "2AA1C8C5DEEF719D"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_spawn_egg"
+				id: "0D0C948024E2E699"
+				title: "Kill 1000 Zombies"
+				type: "kill"
+				value: 1000L
+			}]
+			title: "Kill: 1000x Zombies"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B531A95ADBA487C"]
+			icon: "minecraft:husk_spawn_egg"
+			id: "230D87B51DB39596"
+			invisible: true
+			rewards: [{
+				id: "139DE00EE72FC3D7"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:husk"
+				icon: "minecraft:husk_spawn_egg"
+				id: "11C82EC203D4A648"
+				title: "Kill 10 Husks"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Kill: 10x Husks"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["230D87B51DB39596"]
+			icon: "minecraft:husk_spawn_egg"
+			id: "646B7B05A79A7232"
+			rewards: [{
+				id: "446A71163B5231FF"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:husk"
+				icon: "minecraft:husk_spawn_egg"
+				id: "1C67C43EA8921F1C"
+				title: "Kill 50 Husks"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Kill: 50x Husks"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["646B7B05A79A7232"]
+			icon: "minecraft:husk_spawn_egg"
+			id: "378DF7882F592F81"
+			rewards: [{
+				id: "345C50684680BE2E"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				entity: "minecraft:husk"
+				icon: "minecraft:husk_spawn_egg"
+				id: "55872B44228318B2"
+				title: "Kill 100 Husks"
+				type: "kill"
+				value: 100L
+			}]
+			title: "Kill 100x Husks"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["378DF7882F592F81"]
+			icon: "minecraft:husk_spawn_egg"
+			id: "10109C2295FE6AE7"
+			rewards: [{
+				id: "3B24F506FA2DE2C4"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				entity: "minecraft:husk"
+				icon: "minecraft:husk_spawn_egg"
+				id: "6E86E717A7A76502"
+				title: "Kill 500 Husks"
+				type: "kill"
+				value: 500L
+			}]
+			title: "Kill: 500x Husks"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			icon: "mutantmonsters:mutant_zombie_spawn_egg"
+			id: "378D6B61DE16BE13"
+			invisible: true
+			rewards: [{
+				count: 3
+				id: "450689FF40A5D457"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: "mutantmonsters:mutant_zombie_spawn_egg"
+				id: "7E5EF30CA4F92EEA"
+				title: "Kill 1 Mutant Zombie"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill: 1x Mutant Zombie"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["378D6B61DE16BE13"]
+			icon: "mutantmonsters:mutant_zombie_spawn_egg"
+			id: "6B3950EBD9187977"
+			rewards: [{
+				count: 3
+				id: "1E0540FAAC2FD023"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: "mutantmonsters:mutant_zombie_spawn_egg"
+				id: "21B71B7D6FB06ACA"
+				title: "Kill 5 Mutant Zombies"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill: 5x Mutant Zombies"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6B3950EBD9187977"]
+			icon: "mutantmonsters:mutant_zombie_spawn_egg"
+			id: "238F0BE35862CC4B"
+			rewards: [{
+				count: 3
+				id: "20A780EF2B71E99A"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: "mutantmonsters:mutant_zombie_spawn_egg"
+				id: "0F90B0A3E05B14CA"
+				title: "Kill 10 Mutant Zombies"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Kill: 10x Mutant Zombies"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "798E373FF2672C42"
+			invisible: true
+			rewards: [{
+				id: "1CABCE326912A543"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_spawn_egg"
+				id: "7D28330421B8E36B"
+				title: "Kill 1 Zombie"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill: 1x Zombie"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			icon: "minecraft:husk_spawn_egg"
+			id: "5B531A95ADBA487C"
+			invisible: true
+			rewards: [{
+				id: "768B8BBCAC253264"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "minecraft:husk"
+				icon: "minecraft:husk_spawn_egg"
+				id: "3BBF77C3D1B399AC"
+				title: "Kill 1 Husk"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill: 1x Husk"
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["238F0BE35862CC4B"]
+			icon: "mutantmonsters:mutant_zombie_spawn_egg"
+			id: "52AC0BDBDB52EF36"
+			rewards: [{
+				count: 3
+				id: "7887185621A59D84"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: "mutantmonsters:mutant_zombie_spawn_egg"
+				id: "09C29918C49E3DF4"
+				title: "Kill 25 Mutant Zombies"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill: 25x Mutant Zombies"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "0A9E34A42401EC86"
+			invisible: true
+			rewards: [{
+				count: 3
+				id: "4EF565BE20DE41DA"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: "mutantmonsters:mutant_creeper_spawn_egg"
+				id: "624D3D5E3D102139"
+				title: "Kill 1 Mutant Creeper"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill: 1x Mutant Creeper"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0A9E34A42401EC86"]
+			icon: "mutantmonsters:mutant_creeper_spawn_egg"
+			id: "2846E46D65EFEA9C"
+			rewards: [{
+				count: 3
+				id: "34F233BF2143E435"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: "mutantmonsters:mutant_creeper_spawn_egg"
+				id: "4D2616F689E15F84"
+				title: "Kill 5 Mutant Creepers"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill: 5x Mutant Creepers"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2846E46D65EFEA9C"]
+			icon: "mutantmonsters:mutant_creeper_spawn_egg"
+			id: "6EF17BD4A23E96C5"
+			rewards: [{
+				count: 3
+				id: "5BFE383DA96433B5"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: "mutantmonsters:mutant_creeper_spawn_egg"
+				id: "755BF1D9E8AF447F"
+				title: "Kill 10 Mutant Creepers"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Kill: 10x Mutant Creepers"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6EF17BD4A23E96C5"]
+			icon: "mutantmonsters:mutant_creeper_spawn_egg"
+			id: "370C290C456F17DA"
+			rewards: [{
+				count: 3
+				id: "2076BCCE7D21AB08"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: "mutantmonsters:mutant_creeper_spawn_egg"
+				id: "3CBCAFD8C718050F"
+				title: "Kill 25 Mutant Creepers"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill: 25x Mutant Creepers"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "3323A4E1660CBC7C"
+			invisible: true
+			rewards: [{
+				count: 3
+				id: "26AEF43E072800BC"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: "mutantmonsters:mutant_skeleton_spawn_egg"
+				id: "3AAB13E6AE877306"
+				title: "Kill 1 Mutant Skeleton"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill: 1x Mutant Skeleton"
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3323A4E1660CBC7C"]
+			icon: "mutantmonsters:mutant_skeleton_spawn_egg"
+			id: "60321824535AAF77"
+			rewards: [{
+				count: 3
+				id: "74A8B84D3ECE377C"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: "mutantmonsters:mutant_skeleton_spawn_egg"
+				id: "3145CD360823780A"
+				title: "Kill 5 Mutant Skeletons"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill: 5x Mutant Skeletons"
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["60321824535AAF77"]
+			icon: "mutantmonsters:mutant_skeleton_spawn_egg"
+			id: "6C3AFE3840479307"
+			rewards: [{
+				count: 3
+				id: "0DA028DD13531D58"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: "mutantmonsters:mutant_skeleton_spawn_egg"
+				id: "604795E909B76C69"
+				title: "Kill 5 Mutant Skeletons"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Kill: 10x Mutant Skeletons"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6C3AFE3840479307"]
+			icon: "mutantmonsters:mutant_skeleton_spawn_egg"
+			id: "1214F69DB9351EF3"
+			rewards: [{
+				count: 3
+				id: "20FE9939D6600E73"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: "mutantmonsters:mutant_skeleton_spawn_egg"
+				id: "0F8FA0471F2D6B48"
+				title: "Kill 5 Mutant Skeletons"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Kill: 25x Mutant Skeletons"
+			x: -5.0d
+			y: -2.5d
+		}
+	]
+	title: "Kill Log"
+}

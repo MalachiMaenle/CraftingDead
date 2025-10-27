@@ -1,0 +1,324 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ready"
+	group: ""
+	icon: "minecraft:stone"
+	id: "6509659DF5DD73C7"
+	order_index: 0
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6E247D09DD94FDA5"]
+			description: ["This is the quest book, refer back to here often for rewards after completing objectives! Take this book to have easy access to the quest book anytime. This menu is also accesible from the top left corner of your inventory!"]
+			disable_toast: true
+			icon: "ftbquests:book"
+			id: "404A05C5EBD98C9C"
+			rewards: [{
+				id: "552D10F37C75AAEF"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "663B920D776690A9"
+				type: "checkmark"
+			}]
+			title: "Quests"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			description: ["To start the game, please read all the starting information, and click the checkbox to verify you have read that section before proceeding to the next. After you have read everything, you will be given the ready tag!"]
+			disable_toast: true
+			id: "6E247D09DD94FDA5"
+			subtitle: "Please read to continue"
+			tasks: [{
+				disable_toast: true
+				id: "6078FB13FD90FECD"
+				type: "checkmark"
+			}]
+			title: "Start"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E247D09DD94FDA5"]
+			description: [
+				"This pack contains Zombie Apocalypse Core and Zombie Awareness."
+				"Skeletons, creepers, spiders, baby mobs, etc. have been removed and there are only zombies now, A LOT of zombies."
+				"Zombie AI has also been changed to make them more difficult to deal with."
+			]
+			disable_toast: true
+			icon: "minecraft:zombie_head"
+			id: "181B0DE93A824512"
+			rewards: [{
+				count: 5
+				id: "0C944A7C125528C4"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "6E21553878F50294"
+				type: "checkmark"
+			}]
+			title: "Zombies"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E247D09DD94FDA5"]
+			description: ["Mutant mobs can be found around the world, they are very strong variants of normal mobs so be careful around them!"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "mutantmonsters:mutant_skeleton_skull"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1C1207E537D23CA7"
+			tasks: [{
+				disable_toast: true
+				id: "5EB5FF4392FEE9F3"
+				type: "checkmark"
+			}]
+			title: "Mutant mobs"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E247D09DD94FDA5"]
+			description: [
+				"When your health drops to zero, you are knocked prone, you are able to move slowly but cannot interact with anything. To revive yourself, you must have a health pack on you, otherwise you die and get sent to the last checkpoint."
+				"However you can revive other people for free! Simply hold right click (while not holding a gun) on the player until they are revived!"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "kubejs:health_pack"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "709BF863B9209075"
+			rewards: [{
+				id: "0FAF16DFEF82F458"
+				item: {
+					Count: 1
+					id: "kubejs:health_pack"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "07E17A5D792D14B5"
+				type: "checkmark"
+			}]
+			title: "Reviving"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E247D09DD94FDA5"]
+			description: ["Make sure to talk to every NPC you come across, they may trade useful items and have quests for you to continue story development!"]
+			disable_toast: true
+			icon: "easy_npc:humanoid_spawn_egg"
+			id: "6DB6BA82663876E9"
+			rewards: [{
+				count: 3
+				id: "7523FCF0D7A5B7A1"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "7F772EBA200BD9FE"
+				type: "checkmark"
+			}]
+			title: "NPCs"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E247D09DD94FDA5"]
+			description: [
+				"This pack contains Thirst was Taken and Cold Sweat"
+				"- You must keep track of your thirst bar. You can only naturally regenerate health if both hunger and thirst are full."
+				"- Certain areas of the map may be \"cold\", if you stay in these areas for too long you will eventually freeze to death, move quickly or wear warm leather gear in these areas."
+			]
+			disable_toast: true
+			icon: "thirstcanteen:leather_canteen"
+			id: "02FA20C047908127"
+			rewards: [
+				{
+					id: "036694408829FA59"
+					item: "thirstcanteen:leather_canteen"
+					type: "item"
+				}
+				{
+					id: "1F5DB8126F289EF7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								insulation: [ ]
+							}
+						}
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				disable_toast: true
+				id: "678EBC03CEB86BF8"
+				type: "checkmark"
+			}]
+			title: "Thirst and Temperature"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E247D09DD94FDA5"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Guns in this mod are given at certain progression points and are very powerful tools for killing zombies! right-click to aim, left click to shoot, \"R\" to reload. Remember that you cant interact with doors, buttons, chests, etc. normally while holding a gun."
+				"(change keybinds in settings if needed)"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 17
+					GunFireMode: "SEMI"
+					GunId: "tacz:glock_17"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "02E99DD4600E420D"
+			rewards: [
+				{
+					id: "0EF9D130579CD94A"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 0
+							GunFireMode: "SEMI"
+							GunId: "tacz:glock_17"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "483DD9AB627691A9"
+					item: {
+						Count: 1
+						id: "tacz:ammo_box"
+						tag: {
+							Level: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6599F8C8B18EF0B0"
+				type: "checkmark"
+			}]
+			title: "Guns"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E247D09DD94FDA5"]
+			description: [
+				"Using kubejs custom items were added by me! (AnderZytolga) that fit the theme of the map."
+				"- Gross foods (fried cockroaches, soggy cracker, moldy bread, etc.)"
+				"- healing items (bandages, morphine, health pack)"
+				"- weapons (bowie knife, baseball bat, broken chainsaw, etc.)"
+				"These items can be found in loot chests all over the map!"
+			]
+			disable_toast: true
+			icon: "kubejs:canned_fish"
+			id: "6AC6707B807B6090"
+			rewards: [
+				{
+					count: 6
+					id: "6257EBB615DE76AE"
+					item: "kubejs:canned_fish"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "067B30C4E1F9CF2F"
+					item: "kubejs:bandage"
+					type: "item"
+				}
+				{
+					id: "5BA2A840D7A075F0"
+					item: {
+						Count: 1
+						id: "kubejs:katana"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BBDA9115864472A"
+				type: "checkmark"
+			}]
+			title: "Custom Items"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"02FA20C047908127"
+				"6AC6707B807B6090"
+				"02E99DD4600E420D"
+				"1C1207E537D23CA7"
+				"6DB6BA82663876E9"
+				"404A05C5EBD98C9C"
+				"6E247D09DD94FDA5"
+				"709BF863B9209075"
+				"181B0DE93A824512"
+			]
+			description: ["You have read everything and are ready to start the map!"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "63D82C79996168D0"
+			rewards: [{
+				auto: "enabled"
+				command: "/tag @s add ready"
+				elevate_perms: true
+				id: "1BFCDC1201F99030"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "28E506636769858E"
+				title: "Ready?"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+	]
+	title: "Start"
+}

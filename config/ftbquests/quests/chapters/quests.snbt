@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "quests"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:compass"
+	id: "3933C8B764AE2F7A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["13CC3CDD2CD412B4"]
+			description: [
+				"Travel along the road towards the city of Hollowgate and find the green building."
+				"Take the subway there to Redwater Crossing and talk to Miles when you get there."
+			]
+			icon: "minecraft:compass"
+			id: "704EE301BC2644A7"
+			rewards: [{
+				count: 5
+				id: "402644AF30ED5701"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			subtitle: "Follow Miles to Redwater Crossing"
+			tasks: [{
+				icon: "minecraft:spruce_hanging_sign"
+				id: "7CAF7922422C9C86"
+				title: "Talk with Miles in Redwater Crossing"
+				type: "custom"
+			}]
+			title: "Redwater Crossing"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15D8838945B42C8A"]
+			description: [
+				"The bunker has been taken over by a horde of zombies..."
+				"You must retake the bunker and save Jade!"
+			]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 7
+					GunFireMode: "SEMI"
+					GunId: "tacz:deagle"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "6D301DD6D03F47ED"
+			tasks: [{
+				icon: "minecraft:spruce_hanging_sign"
+				id: "074C29CF7582C0B4"
+				title: "Talk to Jade"
+				type: "custom"
+			}]
+			title: "Re-Take the Bunker"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6509659DF5DD73C7"]
+			description: ["You wake up feeling light-headed, talk with Miles to see what's going on."]
+			icon: "minecraft:spruce_hanging_sign"
+			id: "13CC3CDD2CD412B4"
+			rewards: [{
+				id: "58DAEAE70EFFF852"
+				item: {
+					Count: 1
+					id: "spartanweaponry:copper_pike"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:spruce_hanging_sign"
+				id: "214CB68CEBDDA580"
+				title: "Talk to Miles"
+				type: "custom"
+			}]
+			title: "Talk to Miles"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			description: ["You have successfully slain the Evil Zombie Horse!"]
+			icon: "minecraft:zombie_horse_spawn_egg"
+			id: "47B158273E0D72F2"
+			invisible: true
+			rewards: [
+				{
+					id: "1D7692D9F81945C7"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 7
+							GunFireMode: "SEMI"
+							GunId: "tacz:deagle"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 48
+					id: "1989519D71918DB1"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:50ae"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "323A232394EDCC4A"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Trophy for slaying the Evil Zombie Horse"
+			tasks: [{
+				icon: "minecraft:zombie_horse_spawn_egg"
+				id: "35E060F52EC48AB3"
+				title: "Kill the Evil Zombie Horse"
+				type: "custom"
+			}]
+			title: "Evil Zombie Horse"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			description: ["You have successfully slain the Mega Mutant Zombie!"]
+			icon: "mutantmonsters:mutant_zombie_spawn_egg"
+			id: "287A481B815CF474"
+			invisible: true
+			shape: "diamond"
+			subtitle: "Trophy for slaying a boss"
+			tasks: [{
+				icon: "mutantmonsters:mutant_zombie_spawn_egg"
+				id: "0EEF4727DF5B217F"
+				title: "Kill the Mega Mutant Zombie"
+				type: "custom"
+			}]
+			title: "Mega Mutant Zombie"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["704EE301BC2644A7"]
+			id: "15D8838945B42C8A"
+			tasks: [{
+				icon: "minecraft:spruce_hanging_sign"
+				id: "329CC96E65B4CF05"
+				title: "Talk to Jon Wok"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			icon: "kubejs:fried_roaches"
+			id: "55C22370E87E53D2"
+			invisible: true
+			rewards: [
+				{
+					count: 15
+					id: "18C280EB07ECF5EC"
+					item: "kubejs:fried_roaches"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6386E7917F31FD67"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Trophy for slaying Papa Roach"
+			tasks: [{
+				icon: "kubejs:fried_roaches"
+				id: "5E2D732839AACAAB"
+				title: "Kill Papa Roach"
+				type: "custom"
+			}]
+			title: "Papa Roach"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "5D701DCBB9304204"
+			invisible: true
+			rewards: [{
+				id: "1D4C29A11913737E"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: {
+						StarterUpgrades: {
+							Items: [{
+								Count: 1b
+								id: "travelersbackpack:tanks_upgrade"
+							}]
+						}
+						Tier: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:spruce_hanging_sign"
+				id: "13035F59C99778ED"
+				title: "Talk to Wilton"
+				type: "custom"
+			}]
+			title: "Meet Wilton"
+			x: -2.0d
+			y: -2.0d
+		}
+	]
+	title: "Quests"
+}
