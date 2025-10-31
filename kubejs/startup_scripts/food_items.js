@@ -1,6 +1,11 @@
 StartupEvents.registry('item', event => {
     // kubejs/startup_scripts/strange_foods.js
 
+    event.create('leather_canteen_full')
+        .displayName('Water Containing Leather Canteen')
+        .texture('kubejs:item/leather_canteen_full')
+        .unstackable()
+
     // === Gross & Basic Foods ===
     event.create('rotten_apple')
         .displayName('Rotten Apple')
@@ -108,7 +113,7 @@ StartupEvents.registry('item', event => {
             f
                 .hunger(6)
                 .saturation(0.5)
-                
+
         })
 
     event.create('canned_noodles')
