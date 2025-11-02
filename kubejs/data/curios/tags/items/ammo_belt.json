@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tacz:ammo_box",
+    "tacz:ammo",
+    "minecraft:gunpowder"
+  ]
+}

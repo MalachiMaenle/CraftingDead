@@ -90,8 +90,11 @@ ClientEvents.tick(() => {
   const player = Client.player;
   if (!player) return;
   player.paint({
-    text_1: { text: `${clientAmmo["9mm"]}/300`, visible: true },
-    text_2: { text: `${clientAmmo["50ae"]}/100`, visible: true },
-    text_3: { text: `${clientAmmo["12g"]}/80`, visible: true },
+    text_1: { text: `${clientAmmo["9mm"]}/300`, visible: clientAmmo["9mm"] > 0 },
+    text_2: { text: `${clientAmmo["50ae"]}/100`, visible: clientAmmo["50ae"] > 0 },
+    text_3: { text: `${clientAmmo["12g"]}/80`, visible: clientAmmo["12g"] > 0 },
+    item_1: { visible: clientAmmo["9mm"] > 0 },
+    item_2: { visible: clientAmmo["50ae"] > 0 },
+    item_3: { visible: clientAmmo["12g"] > 0 },
   });
 });

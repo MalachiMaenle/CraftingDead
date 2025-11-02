@@ -1,17 +1,11 @@
-let maxAmmo = {
-  "tacz:9mm": 300,
-  "tacz:50ae": 100,
-  "tacz:12g": 80,
-  "tacz:556mm": 200,
-  "tacz:762mm": 150
-}
+const maxAmmo = JsonIO.read('kubejs/config/ammo_config.json');
 
 ItemEvents.canPickUp('tacz:ammo', event => {
   const { item, player } = event
   const id = item.id
 
   if (!id.startsWith('tacz:ammo')) return
-
+  
   const tag = item.nbt
   const ammoId = tag.AmmoId
   const key = `ammo_${ammoId.replace(':', '_')}`
@@ -23,9 +17,9 @@ ItemEvents.canPickUp('tacz:ammo', event => {
   if (canAdd <= 0) {
     event.cancel()
   }
-  
+
   player.playSound('minecraft:entity.item.pickup', 1.0, 1.0)
-  
+
   player.persistentData[key] = current + canAdd
   item.count = stackCount - canAdd
 
@@ -73,9 +67,9 @@ ServerEvents.tick(event => {
     const ammo50ae = player.persistentData.ammo_tacz_50ae ?? 0;
     const ammo12g = player.persistentData.ammo_tacz_12g ?? 0;
 
-    player.sendData('ammo_sync', {ammo9mm: ammo9mm});
-    player.sendData('ammo_sync', {ammo50ae: ammo50ae});
-    player.sendData('ammo_sync', {ammo12g: ammo12g});
+    player.sendData('ammo_sync', { ammo9mm: ammo9mm });
+    player.sendData('ammo_sync', { ammo50ae: ammo50ae });
+    player.sendData('ammo_sync', { ammo12g: ammo12g });
   }
 });
 

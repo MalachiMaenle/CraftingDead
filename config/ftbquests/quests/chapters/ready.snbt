@@ -126,16 +126,13 @@
 		}
 		{
 			dependencies: ["6E247D09DD94FDA5"]
-			description: ["Make sure to talk to every NPC you come across, they may trade useful items and have quests for you to continue story development!"]
+			description: [
+				"Make sure to talk to every NPC you come across, they may trade useful items and have quests for you to continue story development!"
+				"Most NPCs trade with rotten flesh and coins."
+			]
 			disable_toast: true
 			icon: "easy_npc:humanoid_spawn_egg"
 			id: "6DB6BA82663876E9"
-			rewards: [{
-				count: 3
-				id: "7523FCF0D7A5B7A1"
-				item: "minecraft:gold_nugget"
-				type: "item"
-			}]
 			tasks: [{
 				disable_toast: true
 				id: "7F772EBA200BD9FE"
@@ -149,7 +146,7 @@
 			dependencies: ["6E247D09DD94FDA5"]
 			description: [
 				"This pack contains Thirst was Taken and Cold Sweat"
-				"- You must keep track of your thirst bar. You can only naturally regenerate health if both hunger and thirst are full."
+				"- You must keep track of your thirst bar. You can only naturally regenerate health if both hunger and thirst are full. Dirty water will give you negative status effects, you can clean water using a campfire!"
 				"- Certain areas of the map may be \"cold\", if you stay in these areas for too long you will eventually freeze to death, move quickly or wear warm leather gear in these areas."
 			]
 			disable_toast: true
@@ -206,33 +203,20 @@
 				}
 			}
 			id: "02E99DD4600E420D"
-			rewards: [
-				{
-					id: "0EF9D130579CD94A"
-					item: {
-						Count: 1
-						id: "tacz:modern_kinetic_gun"
-						tag: {
-							GunCurrentAmmoCount: 0
-							GunFireMode: "SEMI"
-							GunId: "tacz:glock_17"
-							HasBulletInBarrel: 1b
-						}
+			rewards: [{
+				id: "0EF9D130579CD94A"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 0
+						GunFireMode: "SEMI"
+						GunId: "tacz:glock_17"
+						HasBulletInBarrel: 0b
 					}
-					type: "item"
 				}
-				{
-					id: "483DD9AB627691A9"
-					item: {
-						Count: 1
-						id: "tacz:ammo_box"
-						tag: {
-							Level: 0
-						}
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6599F8C8B18EF0B0"
 				type: "checkmark"
@@ -257,7 +241,7 @@
 				{
 					count: 6
 					id: "6257EBB615DE76AE"
-					item: "kubejs:canned_fish"
+					item: "kubejs:canned_beans"
 					type: "item"
 				}
 				{

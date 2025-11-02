@@ -1,0 +1,27 @@
+#Should cars spawn?
+SpawnCars = true
+#Disables the generation of monster spawners in the city structure.
+DisableSpawners = false
+#It is the jigsaw depth limit and it has a maximum of 30.
+#Range: 1 ~ 30
+CitySize = 15
+#Defines the maximum distance of any piece from the structure start.
+#Range: 1 ~ 1000
+CityDistanceFromCenter = 128
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+CitySpacing = 8
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+CitySeparation = 34
+#Defines the list of biomes where cities can spawn.
+CityBiomes = ["plains", "snowy_plains", "sunflower_plains", "snowy_plains", "desert"]
+#Defines the list of biomes where cities can spawn.
+VillagesCityBiomes = ["taiga", "plains", "snowy_plains", "sunflower_plains", "snowy_taiga"]
+#Minimum distance between two neighboring attempts.
+#Range: 0 ~ 4096
+VillagesCitySeparation = 16
+#Average distance between two neighboring generation attempts.
+#Range: 0 ~ 4096
+VillagesCitySpacing = 34
+
